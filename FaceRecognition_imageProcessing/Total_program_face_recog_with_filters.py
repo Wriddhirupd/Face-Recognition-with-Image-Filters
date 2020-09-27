@@ -185,7 +185,7 @@ def mul_img(img, n, dirpath):
 ##.....................................................................FACIAL RECOGNITION............................................................................
 
 def fac_recog():
-    subjects = ["", "Wriddhirup Dutta", "Elvis Presley","Ramiz Raza"]
+    subjects = ["","Person 1", "Person 2","Person 3"]
 
     def detect_face(img):
 
@@ -297,14 +297,14 @@ def fac_recog():
     cv2.imshow(subjects[2], cv2.resize(predicted_img2, (400, 500)))
     cv2.imshow(subjects[3], cv2.resize(predicted_img3, (400, 500)))
 
-    cv2.imwrite("Predicted_Wriddhirup_1.jpg",predicted_img1)
-    cv2.imwrite("Predicted_Elvis_1.jpg",predicted_img2)
-    cv2.imwrite("Predicted_Ramiz_1.jpg",predicted_img3)
+    cv2.imwrite("Predicted_Person1.jpg",predicted_img1)
+    cv2.imwrite("Predicted_Person2.jpg",predicted_img2)
+    cv2.imwrite("Predicted_Person3.jpg",predicted_img3)
 
 ##....................................................................FACIAL RECOGNITION EDITED .....................................................................
 
 def fac_recog_edited():
-    subjects = ["", "Wriddhirup Dutta", "Elvis Presley","Ramiz Raza"]
+    subjects = ["","Person 1", "Person 2","Person 3"]
 
     def detect_face(img):
 
@@ -416,9 +416,9 @@ def fac_recog_edited():
     cv2.imshow(subjects[2], cv2.resize(predicted_img2, (400, 500)))
     cv2.imshow(subjects[3], cv2.resize(predicted_img3, (400, 500)))
 
-    cv2.imwrite("Predicted_Wriddhirup_1.jpg",predicted_img1)
-    cv2.imwrite("Predicted_Elvis_1.jpg",predicted_img2)
-    cv2.imwrite("Predicted_Ramiz_1.jpg",predicted_img3)
+    cv2.imwrite("Predicted_Person1.jpg",predicted_img1)
+    cv2.imwrite("Predicted_Person2.jpg",predicted_img2)
+    cv2.imwrite("Predicted_Person3.jpg",predicted_img3)
 
 
 ##.....................................................................MENU FOR PROGRAM .............................................................................

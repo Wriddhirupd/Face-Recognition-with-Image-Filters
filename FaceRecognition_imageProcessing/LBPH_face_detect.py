@@ -12,7 +12,7 @@ import numpy as np
 #Face Recognition Filter
 def fac_recog():
     # subjects = ["", "Wriddhirup Dutta", "Elvis Presley","Ramiz Raza"]
-    subjects = ["Wriddhirup-Dutta", "Elvis-Presley","Ramiz-Raza"]
+    subjects = ["Person 1", "Person 2","Person 3"]
 
     def detect_face(img):
 
